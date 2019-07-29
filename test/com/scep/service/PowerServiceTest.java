@@ -13,7 +13,6 @@ public class PowerServiceTest {
 		Double output = ps.power(2, 3);
 		assertTrue(output == 8.0);
 	}
-
 	// to test the power of negative number
 	@Test
 	public void verifyNegativeInput() {
